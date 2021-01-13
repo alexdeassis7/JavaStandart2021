@@ -6,6 +6,11 @@ import com.educacionit.modelos.VueloCarga;
 public class AppPrincipal {
 
 	public static void main(String[] args) {
+		//Valor inmutable
+		final double  PI = 3.141592;
+		final String  IP = "192.168.0.25";
+		
+		
 		Passenger marcelo = new Passenger("marce");
 		Passenger pepe = new Passenger("pepe");
 		Passenger abigail = new Passenger("abigail");

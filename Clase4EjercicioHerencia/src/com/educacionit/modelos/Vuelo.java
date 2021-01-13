@@ -1,6 +1,7 @@
 package com.educacionit.modelos;
 
 //clase padre o clase base 
+//si definimos a una clase como final esta no se puede heredar 
 public class Vuelo {
 
 	public int numVuelo;
@@ -34,7 +35,7 @@ public class Vuelo {
 
 	}
 
-	public int getAsiento() {
+	 public int getAsiento() {
 		return 150;
 	}
 
