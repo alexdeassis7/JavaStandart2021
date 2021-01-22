@@ -44,22 +44,23 @@ public class Conexion {
 		}
 
 	}
-	//metodo que nos retorna la conexion 
+
+	// metodo que nos retorna la conexion
 	public Connection getConnection() {
 		return conn;
 	}
-	//metodo para desconectar a la DB 
+
+	// metodo para desconectar a la DB
 	public void desconectar() {
-		if(conn != null) {
+		if (conn != null) {
 			try {
 				conn.close();
-			} catch (SQLException e) {				
+			} catch (SQLException e) {
 				e.printStackTrace();
-			}			
+			}
 			conn = null;
 			System.out.println("Se logro cerrar correctamente la conexion a la DB " + db);
 		}
 	}
-	
 
 }
