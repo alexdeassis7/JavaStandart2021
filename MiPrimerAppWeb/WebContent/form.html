@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hola Java Server Pages</title>
+
+<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+</head>
+<body>
+
+Welcome to JSP Java 
+<form action="vistas/proceso.jsp" method="post">
+	Nombre: 
+	<input type="text" name="nombre">
+	<br>
+	Apellido: 
+	<input type="text" name="apellido">
+	<br>
+	Edad: 
+	
+	<input type="text" name="edad">
+	
+	<br>
+	
+	Lenguaje Preferido:
+	<select name="lenguaje">
+		<option value="java"> JAVA
+		<option value="php"> php
+		<option value="c/c++"> C/C++
+		<option value="C#"> C#
+		<option value="TypeScript"> TypeScript	
+	</select>
+	
+	<br>
+	Me gusta el :
+	<br>
+	<input type="radio" name="preferencia" value="diseño de soft" >diseño de software
+	<br>
+	<input type="radio" name="preferencia" value="Programacion" > Programacion
+	<br>
+	<input type="radio" name="preferencia" value="ModeladoER" > Modelado
+	<br>
+	<input type="radio" name="preferencia" value="Gerencia" >Gerencia de Proyecto
+		<br>
+		
+	<p><input type="submit" value="Enviar al JSP">	</p>
+</form>
+
+<!-- localhost:8080/MiPrimerAppWeb/index.html -->
+
+</body>
+</html>
